@@ -1,13 +1,27 @@
-# Node
-node_modules/
-.env
+# dependencies
+/node_modules
 
-# Mac / Windows
+# production build
+/build
+
+# misc
 .DS_Store
-Thumbs.db
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# VS Code
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor directories and files
 .vscode/
-
-# Logs
-*.log
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
